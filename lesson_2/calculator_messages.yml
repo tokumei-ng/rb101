@@ -1,0 +1,15 @@
+en:
+  welcome: "Welcome to Calculator! Enter your name:"
+  valid_name: "Make sure to enter a valid name."
+
+  num1_prompt: "What's the first number?"
+  num2_prompt: "What's the second number?"
+  num_error: "Hmm...that doesn't look like a valid number."
+
+jp:
+  welcome: "電卓へようこそ！名前を入力してください："
+  valid_name: "入力した名前は何か問題がありました。もう一度入力してください。"
+
+  num1_prompt: "一番目の数字は何ですか："
+  num2_prompt: "二番目の数字は何ですか："
+  num_error: "あれ？その数字はどこかで間違っています？"

@@ -1,0 +1,52 @@
+# method that returns the sum of two integers
+
+# CASUAL
+ - get two inputs from the user (or set two integers if no user input)
+ - [if user input] validate inputs to make sure they're integers
+ - do an addition operation on the two values
+ - print out the result
+
+# FORMAL
+ - GET num1 (alternatively SET num1)
+ - GET num2 (alternatively SET num2)
+ - IF num1 is INTEGER AND num2 is INTEGER
+   - SET result = num1 + num2
+   - PRINT result
+ - ELSE
+   - PRINT error message
+
+==============================================================
+# a method that takes an array of strings, and returns a string that is all those strings concatenated together
+
+# CASUAL
+ - define a method that has one parameter (an array)
+ - iterate through the entire array
+   - add array item to the end of a string
+ - return the final string
+
+# FORMAL
+ - DEFINE method with one parameter (array)
+  - SET result = ""
+  - FOR EACH item in array
+    - result CONCATENATE item
+  - PRINT result
+
+==============================================================
+# a method that takes an array of integers, and returns a new array with every other element
+
+# CASUAL
+ - define a method that has one parameter (an array)
+ - iterate through the entire array
+   - check if current index is an odd index
+     - add item at index to new array
+   - otherwise continue
+ - return the final array
+
+# FORMAL
+ - DEFINE method with one parameter (array)
+   - SET new array = []
+   - FOR EACH index in array
+     - IF index is odd
+       - INSERT item at index into new array
+     - ELSE continue
+   - PRINT new array
